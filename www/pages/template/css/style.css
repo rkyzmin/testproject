@@ -1,0 +1,207 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.admin-phrase {
+    margin-left: 15px;
+    margin-top: 5px;
+    display: block;
+}
+
+.blocks {
+    padding: 15px;
+}
+
+.modal-block-add-item {
+    display: none;
+    padding: 15px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    position: fixed;
+    z-index: 9999999;
+    background-color: #ffffff;
+    transform: 50%;
+    top: 50%;
+    margin: 0;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+}
+
+.modal-block-add-item__form__title,
+.modal-block-add-item__form__description {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.modal-block-add-item__form__add {
+    margin: auto;
+    display: block;
+    border: 0;
+    color: #f5deb3;
+    width: 50%;
+    background-color: #0077ff;
+    padding: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.main-block__content__wrapper-items__item__childrens {
+    padding-left: 21px;
+    margin-left: 20px;
+    border-left: 3px solid #808080;
+}
+
+.parent,
+.children {
+    margin-left: 15px;
+}
+
+.showElement {
+    display: block !important;
+}
+
+[data-parent-id] {
+    margin-left: 15px;
+    border: 1px solid #808080;
+    margin-bottom: 15px;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.blocks {
+    padding: 15px;
+    border: 1px solid #808080;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.show-elements-admin {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    border: 0;
+    cursor: pointer;
+}
+
+.update-item-block,
+.delete-item-block {
+    border-radius: 5px;
+    border: 0;
+    color: #ffffff;
+    padding: 5px;
+    margin-top: 15px;
+    width: 10%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.update-item-block {
+    background-color: #8fbc8f;
+}
+
+.delete-item-block {
+    background-color: #ff0000;
+}
+
+.blocks #title,
+.blocks #description {
+    width: 50%;
+}
+
+.blocks #description {
+    margin-top: 10px;
+}
+
+.modal-block-add-item img {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 2%;
+    cursor: pointer;
+}
+
+.modal-block-add-item__form {
+    margin-top: 10px;
+}
+
+.main-header__menu {
+    font-family: system-ui;
+    display: flex;
+    padding: 15px;
+    background-color: #00bfff;
+    color: #ffffff;
+}
+
+.main-header__menu :last-child {
+    display: block;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.main-header__menu :first-child, .login {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.add-children-block {
+    position: absolute;
+    right: 10px;
+    background-color: #ff7f50;
+    border: 0;
+    padding: 5px;
+    color: #ffffff;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.login-form {
+    margin: auto;
+    margin-top: 20px;
+    display: block;
+}
+
+.login-form form {
+    display: inline-grid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 25%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.login-form form #username,
+.login-form form #password {
+    margin-bottom: 10px;
+}
+
+.login-form form [type='submit'] {
+    background-color: #6363ff;
+    border: 0;
+    border-radius: 5px;
+    padding: 3px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.add-new-element {
+    background-color: #3579ff;
+    color: white;
+    border: 0;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.main-blocks-wrapper {
+    padding: 15px;
+}
